@@ -163,7 +163,7 @@ class BeerOrderControllerTest {
         BeerOrderLineDto beerOrderLine = BeerOrderLineDto.builder()
                 .id(UUID.randomUUID())
                 .beerId(beerId)
-                .upc(12312312345L)
+                .upc("12312312345")
                 .orderQuantity(5)
                 .build();
 
